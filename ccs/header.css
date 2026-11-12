@@ -15,10 +15,10 @@ header {
   width: 68px;
   height: 64px;
 }
-.logo-mobile {
+.img-mobile {
   display: block;
 }
-.logo-descktop {
+.img-descktop {
   display: none;
 }
 input[type="checkbox"]:checked ~ nav {
@@ -46,7 +46,7 @@ nav {
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: blue;
+    background-color: rgb(241, 241, 245);
   }
   .navigation-menu {
     margin-top: 0;
